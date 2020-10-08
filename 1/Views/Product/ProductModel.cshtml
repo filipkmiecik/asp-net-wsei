@@ -1,6 +1,9 @@
-﻿@model ProductModel
+﻿@model IEnumerable<ProductModel>
 @{
 }
-<h1>@Model.name</h1>
-<p>@Model.description</p>
-<p>@Model.price</p>
+
+@foreach (var m in @Model)
+{
+<h1>@m.name</h1>
+<p>@m.description</p>
+<p>@m.price</p>}

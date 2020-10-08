@@ -27,7 +27,11 @@ namespace _1.Controllers
 
         public IActionResult ProductModel()
         {
-            var model = new ProductModel {name = "abc", description = "abc", price = 30 };
+            var model = new List<ProductModel>
+            {   
+            new ProductModel {name = "Shoes", description = "Yellow sneakers", price = 70 },
+            new ProductModel {name = "Blu-ray movie", description = "Shrek 3", price = 49 },
+            new ProductModel {name = "Sweatshirt", description = "A blue sweatshirt", price = 30 },};
             return View(model);
         }
     }
