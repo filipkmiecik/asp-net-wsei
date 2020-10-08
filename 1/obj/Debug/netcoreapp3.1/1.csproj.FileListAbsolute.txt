@@ -35,3 +35,4 @@ C:\Users\fizzc\Documents\asp net\1\obj\Debug\netcoreapp3.1\1.dll
 C:\Users\fizzc\Documents\asp net\1\obj\Debug\netcoreapp3.1\1.pdb
 C:\Users\fizzc\Documents\asp net\1\obj\Debug\netcoreapp3.1\1.genruntimeconfig.cache
 C:\Users\fizzc\Documents\asp net\1\obj\Debug\netcoreapp3.1\1.csproj.CopyComplete
+C:\Users\fizzc\Documents\asp net\1\obj\Debug\netcoreapp3.1\Razor\Views\Product\ProductModel.cshtml.g.cs
