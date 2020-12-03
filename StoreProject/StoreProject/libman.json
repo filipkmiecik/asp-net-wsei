@@ -5,6 +5,19 @@
     {
       "library": "twitter-bootstrap@2.1.1",
       "destination": "lib/twitter-bootstrap/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "lib/jquery/"
+    },
+    {
+      "library": "jquery-validation@1.19.2",
+      "destination": "lib/jquery-validation/"
+    },
+    {
+      "provider": "cdnjs",
+      "library": "jquery-validation-unobtrusive@3.2.11",
+      "destination": "lib/jquery-validation-unobtrusive/"
     }
   ]
 }
