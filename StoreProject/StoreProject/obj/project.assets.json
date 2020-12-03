@@ -8479,11 +8479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fizzc\\source\\repos\\StoreProject\\StoreProject\\StoreProject.csproj",
+      "projectUniqueName": "C:\\Users\\fizzc\\Documents\\asp net\\StoreProject\\StoreProject\\StoreProject.csproj",
       "projectName": "StoreProject",
-      "projectPath": "C:\\Users\\fizzc\\source\\repos\\StoreProject\\StoreProject\\StoreProject.csproj",
+      "projectPath": "C:\\Users\\fizzc\\Documents\\asp net\\StoreProject\\StoreProject\\StoreProject.csproj",
       "packagesPath": "C:\\Users\\fizzc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fizzc\\source\\repos\\StoreProject\\StoreProject\\obj\\",
+      "outputPath": "C:\\Users\\fizzc\\Documents\\asp net\\StoreProject\\StoreProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\fizzc\\AppData\\Roaming\\NuGet\\NuGet.Config",

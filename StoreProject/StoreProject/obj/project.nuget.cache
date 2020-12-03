@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZKVpPumgqoJHIV0c0rbK1hKRDHQo2Ub49S6yt/nDCKcoekD4GrsaeEwRZXV6xZaA3ysZpcHeiWgTj2FJMUSr6w==",
+  "dgSpecHash": "N6Gm7sNmGfxIC5q5fOzws1Y1epXODylV3VdCMSLWa5luqPTXAlnJi44UgdA8JdHdCFUmKZVaKC1U/u184Gy6KA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fizzc\\source\\repos\\StoreProject\\StoreProject\\StoreProject.csproj",
+  "projectFilePath": "C:\\Users\\fizzc\\Documents\\asp net\\StoreProject\\StoreProject\\StoreProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fizzc\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\fizzc\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
