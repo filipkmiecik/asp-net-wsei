@@ -52,6 +52,7 @@ namespace StoreProject
             app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseElapsedTimeMiddleware();
+            app.UseAuthentication();
 
             app.UseEndpoints(routes => {
 
