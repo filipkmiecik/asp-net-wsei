@@ -1,11 +1,12 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using StoreProject.Exntensions;
+using StoreProject.Extensions;
 using StoreProject.Models;
 using WebApplication9.Models;
 
@@ -24,8 +25,17 @@ namespace StoreProject
         {
             services.AddRazorPages();
             services.AddTransient<IProductRepository, EFProductRepository>();
+
+            string connectionString = Configuration["Data:SportStoreProducts:ConnectionString"];
+
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(Configuration["Data:SportStoreProducts:ConnectionString"]));
+                options.UseSqlServer(connectionString));
+
+            services.AddDbContext<AppIdentityDbContext>(options =>
+                options.UseSqlServer(connectionString));
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
 
         }
 
@@ -39,14 +49,36 @@ namespace StoreProject
 
             app.UseRouting();
             app.UseDeveloperExceptionPage();
-            app.UseStatusCodePages(); 
+            app.UseStatusCodePages();
             app.UseStaticFiles();
             app.UseElapsedTimeMiddleware();
 
-            app.UseEndpoints(routes => routes.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Product}/{action=List}/{id?}")
-            );
+            app.UseEndpoints(routes => {
+
+                routes.MapControllerRoute(
+                     name: "default",
+                     pattern: "{controller=Product}/{action=List}/{id?}");
+
+                routes.MapControllerRoute(
+                    name: null,
+                    pattern: "Product/{category}",
+                    defaults: new
+                    {
+                        controller = "Product",
+                        action = "List",
+                    });
+
+                routes.MapControllerRoute(
+                    name: null,
+                    pattern: "Admin/{action=Index}",
+                    defaults: new
+                    {
+                        controller = "Admin",
+                        action = "Index",
+                    });
+
+
+            });
             SeedData.EnsurePopulated(app);
         }
     }

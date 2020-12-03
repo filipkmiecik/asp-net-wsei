@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using StoreProject.Middleware;
 
-namespace StoreProject.Exntensions
+namespace StoreProject.Extensions
 {
     public static class BuilderExtensions
     {
