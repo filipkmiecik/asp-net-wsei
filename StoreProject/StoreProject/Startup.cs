@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -9,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using StoreProject.Exntensions;
 using StoreProject.Models;
 using WebApplication9.Models;
 
@@ -44,6 +41,7 @@ namespace StoreProject
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages(); 
             app.UseStaticFiles();
+            app.UseElapsedTimeMiddleware();
 
             app.UseEndpoints(routes => routes.MapControllerRoute(
                 name: "default",
