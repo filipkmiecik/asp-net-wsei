@@ -57,6 +57,7 @@ namespace StoreProject
                 c.RoutePrefix = "api";
             });
             app.UseRouting();
+            app.UseAuthorization();
             app.UseDeveloperExceptionPage();
             app.UseStatusCodePages();
             app.UseStaticFiles();
@@ -84,6 +85,14 @@ namespace StoreProject
                     defaults: new
                     {
                         controller = "Admin",
+                        action = "Index",
+                    });
+                routes.MapControllerRoute(
+                    name: null,
+                    pattern: "Chat/{action=Index}",
+                    defaults: new
+                    {
+                        controller = "Chat",
                         action = "Index",
                     });
 

@@ -313,7 +313,7 @@ C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Chat.cshtml.g.cs
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Index.cshtml.g.cs
