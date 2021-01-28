@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using StoreProject.Extensions;
 using StoreProject.Models;
 using WebApplication9.Models;
+using StoreProject.Hubs;
 
 namespace StoreProject
 {
