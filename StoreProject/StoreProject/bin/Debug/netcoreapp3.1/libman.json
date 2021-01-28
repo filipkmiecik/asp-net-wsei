@@ -17,7 +17,15 @@
     },
     {
       "library": "twitter-bootstrap@2.1.1",
-      "destination": "lib/twitter-bootstrap/"
+      "destination": "wwwroot/lib/twitter-bootstrap/"
+    },
+    {
+      "library": "@microsoft/signalr@latest",
+      "destination": "wwwroot/js/signalr/",
+      "files": [
+        "dist/browser/signalr.js",
+        "dist/browser/signalr.min.js"
+      ]
     }
   ]
 }

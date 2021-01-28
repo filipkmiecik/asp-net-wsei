@@ -157,8 +157,6 @@ C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.pdb
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\lib\twitter-bootstrap\docs\build\package.json
-C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\lib\twitter-bootstrap\package.json
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\lib\jquery-validation\package.json
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\lib\jquery\bower.json
@@ -310,3 +308,12 @@ C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\scopedcss\bundle\StoreProject.styles.css
 C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\StoreProject.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\obj\Debug\netcoreapp3.1\Razor\Views\Chat\Chat.cshtml.g.cs
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\fizzc\Documents\asp net\StoreProject\StoreProject\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll

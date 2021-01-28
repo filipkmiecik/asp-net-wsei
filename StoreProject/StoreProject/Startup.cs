@@ -38,6 +38,8 @@ namespace StoreProject
                 .AddEntityFrameworkStores<AppIdentityDbContext>()
                 .AddDefaultTokenProviders();
             services.AddSwaggerGen();
+            services.AddControllers();
+            services.AddSignalR();
 
         }
 
@@ -52,6 +54,7 @@ namespace StoreProject
             app.UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.RoutePrefix = "api";
             });
             app.UseRouting();
             app.UseDeveloperExceptionPage();
